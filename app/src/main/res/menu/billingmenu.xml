@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item1"
+        android:enabled="true"
+        android:icon="@drawable/ic_skip_previous_black_24dp"
+        android:showAsAction="ifRoom"
+        android:title="Previous">
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:enabled="true"
+        android:icon="@drawable/ic_skip_next_black_24dp"
+        android:showAsAction="ifRoom"
+        android:title="Next">
+    </item>
+    <item
+        android:id="@+id/item3"
+        android:enabled="true"
+        android:icon="@drawable/ic_print_black_24dp"
+        android:showAsAction="ifRoom"
+        android:title="Print">
+    </item>
+    <item
+        android:id="@+id/item4"
+        android:enabled="true"
+        android:icon="@drawable/ic_arrow_back_black_24dp"
+        android:showAsAction="ifRoom"
+        android:title="Back">
+    </item>
+
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item1"
+        android:showAsAction="ifRoom"
+        android:title="Search By ID" />
+    <item
+        android:id="@+id/item2"
+        android:showAsAction="ifRoom"
+        android:title="Search By RRno" />
+    <item
+        android:id="@+id/item3"
+        android:showAsAction="ifRoom"
+        android:title="Search By Name" />
+    <item
+        android:id="@+id/item4"
+        android:showAsAction="ifRoom"
+        android:title="Cancel Search" />
+    <item
+        android:id="@+id/item5"
+        android:showAsAction="ifRoom"
+        android:title="UnBilled Records" />
+    <item
+        android:id="@+id/item6"
+        android:showAsAction="ifRoom"
+        android:title="DLBilled Records" />
+    <item
+        android:id="@+id/item7"
+        android:showAsAction="ifRoom"
+        android:title="All Billing Records" />
+    <item
+        android:id="@+id/poly_menu_dir"
+        android:showAsAction="ifRoom"
+        android:title="Show Direction" />
+    <item
+        android:id="@+id/menu_mtr_asset"
+        android:showAsAction="ifRoom"
+        android:title="Meter Asset" />
+</menu>

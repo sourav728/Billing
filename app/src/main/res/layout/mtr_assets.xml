@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_asset_mtr_assests"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="Meter Assets Details"
+                android:textSize="21sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txt_asset_mtr_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Meter Type"/>
+
+            <EditText
+                android:id="@+id/et_asset_mtr_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:ems="10"
+                android:hint="Meter Type"
+                android:inputType="text"/>
+
+            <TextView
+                android:id="@+id/txt_asset_mtr_make"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Meter Make"/>
+
+            <EditText
+                android:id="@+id/et_asset_mtr_make"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Meter Make"
+                android:inputType="text"/>
+
+            <TextView
+                android:id="@+id/txt_asset_mtr_digit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Meter Digit"/>
+
+            <EditText
+                android:id="@+id/et_asset_mtr_digit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:ems="10"
+                android:hint="Meter digit"
+                android:inputType="number"
+                android:maxLength="1"/>
+
+            <TextView
+                android:id="@+id/txt_asset_mtr_serial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Meter Serial No"/>
+
+            <EditText
+                android:id="@+id/et_asset_mtr_serial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:ems="10"
+                android:hint="Meter Serial No"
+                android:inputType="text"/>
+
+            <TextView
+                android:id="@+id/txt_asset_mtr_display"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Meter Display"/>
+
+            <Spinner
+                android:id="@+id/sp_asset_mtr_display"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:id="@+id/txt_asset_mtr_account_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Account ID"/>
+
+            <EditText
+                android:id="@+id/et_asset_mtr_account_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:ems="10"
+                android:hint="Account ID"
+                android:inputType="number"
+                android:maxLength="10"/>
+
+            <TextView
+                android:id="@+id/txt_asset_mrcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="MRCode"/>
+
+            <EditText
+                android:id="@+id/et_asset_mrcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:ems="10"
+                android:hint="MRCode"
+                android:inputType="number"
+                android:maxLength="8"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
